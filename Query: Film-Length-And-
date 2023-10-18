@@ -1,0 +1,6 @@
+# Film length is more than 120 mintues and rental rate is 2.99
+
+SELECT film_id, title, description, rental_rate, length
+FROM film
+WHERE length > '120'
+AND rental_rate > '2.99'
