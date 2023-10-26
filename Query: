@@ -1,5 +1,0 @@
-# Rental duration is between 3 and 7 days (where 3 and 7 aren't inclusive)
-
-SELECT film_id, title, description, rental_duration
-FROM film
-WHERE rental_duration > 3 AND rental_duration < 7
